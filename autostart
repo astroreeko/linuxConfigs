@@ -1,0 +1,23 @@
+# --------------------------------------------------
+# THIS IS OPENBOX AUTOSTART CONFIGURE FILE
+# Located at $HOME/openbox/autostart
+# --------------------------------------------------
+
+# Programs that will run after Openbox has started
+
+# Set the wallpaper
+#hsetroot ~/wallpaper.png &
+#nitrogen --set-scaled --restore &
+#feh --bg-fill /home/orez/Documents/Wallpapers/mark-van-haitsma-racer-class-full-wing-b-alt-back.jpg
+#nitrogen --restore --set-scaled
+
+xeventbind resolution wallreset.sh &
+
+# Run a Composite manager
+xcompmgr &
+
+# Run Tint2
+tint2 & 
+
+# SCIM support (for typing non-english characters)
+# scim -d &
