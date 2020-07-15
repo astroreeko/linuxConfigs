@@ -130,3 +130,6 @@ export PATH=$PATH:$JAVA_HOME/bin
 export PATH="/home/orez/Pbin:$PATH"
 
 alias nv="nvim"
+
+export PS1="[\u@\A] : \[$(tput sgr0)\]\[\033[38;5;32m\]\w\[$(tput sgr0)\] >\[$(tput sgr0)\] "
+
