@@ -1,0 +1,12 @@
+Offical link:
+https://github.com/junegunn/fzf#using-linux-package-managers
+
+What this video
+https://www.youtube.com/watch?v=1a5NiMhqAR0
+
+Install:
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+
+
+once done.   ctl+R   / ctrl+T   - enjoy!
