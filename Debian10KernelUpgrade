@@ -1,0 +1,11 @@
+apt install openbox tint2 mc htop neovim lxappearance pcmanfd firefox-esr xfce4-terminal
+
+add below sources to:
+nano /etc/apt/sources.list
+
+deb-src http://ftp.us.debian.org/debian/ buster-backports main
+deb http://ftp.us.debian.org/debian/ buster-backports main
+
+apt update
+apt install -t buster-backports linux-image-5.4.0-0.bpo.4-rt-amd64
+
