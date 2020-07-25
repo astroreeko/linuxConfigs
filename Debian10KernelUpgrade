@@ -34,4 +34,4 @@ nano ~/.config/openbox/autostart
 
 xfce4-screensaver &
 
-# might want to remove the mx linux backports repo after installing the required softwares
+# might want to remove the mx linux backports repo after installing the required softwares.
