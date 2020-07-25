@@ -3,9 +3,7 @@
 # Located at $HOME/openbox/autostart
 # --------------------------------------------------
 
-
 # Programs that will run after Openbox has started
-
 
 # This program randomly selects a photos
 gisfile1.sh
