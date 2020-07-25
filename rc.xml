@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>MintZ</name>
+    <name>Nightmare-02</name>
     <titleLayout>DLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -151,10 +151,10 @@
      Many programs reserve space automatically, but you can use this in other
      cases. -->
   <margins>
-    <top>33</top>
-    <bottom>6</bottom>
-    <left>5</left>
-    <right>5</right>
+    <top>34</top>
+    <bottom>1</bottom>
+    <left>4</left>
+    <right>4</right>
   </margins>
   <dock>
     <position>TopLeft</position>
@@ -313,7 +313,16 @@
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
         <x>-0</x>
-        <y>0%</y>
+        <y>0</y>
+        <width>50%</width>
+        <height>100%</height>
+      </action>
+    </keybind>
+    <keybind key="W-Left">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
         <width>50%</width>
         <height>100%</height>
       </action>
@@ -326,7 +335,7 @@
         <width>50%</width>
         <height>50%</height>
       </action>
-    </keybind>    
+    </keybind>
     <keybind key="W-A-Down">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
@@ -334,15 +343,6 @@
         <y>-0</y>
         <width>50%</width>
         <height>50%</height>
-      </action>
-    </keybind> 
-    <keybind key="W-Left">
-      <action name="Unmaximize"/>
-      <action name="MoveResizeTo">
-        <x>0</x>
-        <y>0</y>
-        <width>50%</width>
-        <height>100%</height>
       </action>
     </keybind>
     <keybind key="W-S-Up">
@@ -363,6 +363,15 @@
           <name>App Finder</name>
         </startupnotify>
         <command>xfce4-appfinder</command>
+      </action>
+    </keybind>
+    <keybind key="W-l">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>App Finder</name>
+        </startupnotify>
+        <command>xfce4-screensaver-command -l</command>
       </action>
     </keybind>
     <keybind key="W-t">
