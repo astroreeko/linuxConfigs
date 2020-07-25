@@ -1,0 +1,23 @@
+# This is an easy guide on how set lock screen wallpaper when using XFCE-screensaver with openbox
+# Without it lockscreen will be blue, this will occur when using windows manager such as openbox
+
+- Download Ristretto image viewer 
+- Open an image with Ristretto
+- Set the image as wallpaper, and send it to xfce
+
+As lightDM lockscreen will use the same background / wallpaper image as XFCE wallpaper 
+this will effectively change the lockscreen wallpaper
+
+You can ofcourse set your Openbox / window manager wallpaper using nitrogen or other like tools
+
+----
+
+# Bonus Tip, Setting - lightdm-greeter background
+# This will setup the initial lightdm login screen background
+
+# On Debian 10 - default lightdm login screen wallpaper is located at and set to:
+
+/usr/share/images/desktop-base/login-background.svg
+
+# To set your own simply rename it, then replace it with your own image.
+# It can be jpg or png, but keep the nfileame as "login-background.svg
