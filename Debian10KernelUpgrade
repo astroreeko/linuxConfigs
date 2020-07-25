@@ -1,11 +1,32 @@
+# Add additional software for openbox experience
+
 apt install openbox tint2 mc htop neovim lxappearance pcmanfd firefox-esr xfce4-terminal
 
-add below sources to:
+# add below sources to:
+
 nano /etc/apt/sources.list
 
 deb-src http://ftp.us.debian.org/debian/ buster-backports main
 deb http://ftp.us.debian.org/debian/ buster-backports main
 
+# update packages and install kernal 5.4 images
 apt update
 apt install -t buster-backports linux-image-5.4.0-0.bpo.4-rt-amd64
 
+# upgrade to XFCE4.14 to enable screensaver and lockscreen
+# add below to source to:
+
+nano /etc/apt/sources.list
+
+deb http://mxrepo.com/mx/repo/ buster main non-free
+
+# download and install mx linux repo keys to allow you to pull packages from mx linux
+
+curl -O http://mxrepo.com/mx/repo/pool/main/m/m ... 31_all.deb
+
+sudo dpkg -i mx19-archive-keyring_2019.5.31_all.deb 
+sudo apt update
+sudo apt upgrade
+sudo apt xfce4-screensaver
+
+# might want to remove the mx linux backports repo after installing the required softwares
