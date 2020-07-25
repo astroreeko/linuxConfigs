@@ -29,4 +29,9 @@ sudo apt update
 sudo apt upgrade
 sudo apt xfce4-screensaver
 
+# add xfce4-screensaver when you start openbox
+nano ~/.config/openbox/autostart
+
+xfce4-screensaver &
+
 # might want to remove the mx linux backports repo after installing the required softwares
