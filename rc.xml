@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Nightmare-02</name>
+    <name>telerrico</name>
     <titleLayout>DLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -333,7 +333,7 @@
         <x>-0</x>
         <y>0</y>
         <width>50%</width>
-        <height>50%</height>
+        <height>52%</height>
       </action>
     </keybind>
     <keybind key="W-A-Down">
