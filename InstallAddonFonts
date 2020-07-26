@@ -23,9 +23,14 @@ sudo cp *otf *otc /usr/share/fonts/opentype/noto
 sudo fc-cache -f -v # optional
 
 
-#Recommended Font list:
+# Recommended Font list:
 
 Arial Unicode MS
 NotoColorEmoji
 NotoMono
 Noto_Sans_Sc
+
+# Links
+
+https://github.com/stipub/stixfonts
+https://github.com/adobe-fonts/source-code-pro/tree/master
