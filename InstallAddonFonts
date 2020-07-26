@@ -21,3 +21,11 @@ fc-cache -f -v # optional
 sudo mkdir -p /usr/share/fonts/opentype/noto
 sudo cp *otf *otc /usr/share/fonts/opentype/noto
 sudo fc-cache -f -v # optional
+
+
+#Recommended Font list:
+
+Arial Unicode MS
+NotoColorEmoji
+NotoMono
+Noto_Sans_Sc
