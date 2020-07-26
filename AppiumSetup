@@ -96,6 +96,12 @@ sudo pip install Appium-Python-Client
 ####################################
 
 
+Install Java
+
+####################################
+sudo apt install default-jdk
+####################################
+
 Install Andriod Studio
 
 Option 1: download the Andriod Studio Full APP
@@ -117,8 +123,15 @@ Install - Android SDK Build-Tools 30.0.1
 
 
 
+Issue with SUID sandbox - Some old kernals will have issues starting as per described here:
 
+######################################################
+Workaround 1: Executive this comment in terminal
+sudo sysctl kernel.unprivileged_userns_clone=1
 
+Workaround 2: Start program like this:
+./appium-linu-xx.AppImage --no-sandbox 
+######################################################
 
 
 
