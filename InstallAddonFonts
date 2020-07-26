@@ -7,6 +7,8 @@ fc-list
 
 https://www.google.com/get/noto/help/emoji/
 https://www.google.com/get/noto/
+https://github.com/stipub/stixfonts
+https://github.com/adobe-fonts/source-code-pro/tree/master
 
 # Install Instructions:
 cd ~/Downloads   # or wherever you downloaded a font pack.
@@ -30,7 +32,3 @@ NotoColorEmoji
 NotoMono
 Noto_Sans_Sc
 
-# Links
-
-https://github.com/stipub/stixfonts
-https://github.com/adobe-fonts/source-code-pro/tree/master
