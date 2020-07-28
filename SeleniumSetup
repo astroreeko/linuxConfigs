@@ -30,4 +30,6 @@ unzip chromedriver_linux64.zip
 
 / You can find the latest ChromeDriver on its official download page. Now execute below commands to configure ChromeDriver on your system.
 
-sudo mv chromedriver /usr/bin/chromedriversudo chown root:root /usr/bin/chromedriversudo chmod +x /usr/bin/chromedriver
+sudo mv chromedriver /usr/bin/chromedriversudo 
+chown root:root /usr/bin/chromedriversudo 
+chmod +x /usr/bin/chromedriver
