@@ -1,0 +1,7 @@
+Download the latest version of Sougo Input
+
+dpkg -i sougo*.deb
+
+sudo apt --fix-broken install
+
+sudo apt-get install libqt4-declarative
