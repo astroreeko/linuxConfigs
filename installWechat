@@ -1,1 +1,17 @@
 https://github.com/zq1997/deepin-wine
+
+
+----
+
+
+
+X Error of failed request: BadWindow (invalid Window parameter) Major opcode of failed request: 20 (X_GetProperty) Resource id in failed request: 0x0 Serial number of failed request: 10 Current serial number in output stream: 10
+
+非gnome系的解决方案：安装gnome-settings-daemon，然后运行/usr/lib/gsd-xsettings
+
+manjaro+awesome下测试通过
+
+
+source:  https://aur.archlinux.org/packages/deepin.com.qq.office/
+
+---
