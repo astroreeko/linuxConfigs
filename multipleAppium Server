@@ -1,0 +1,15 @@
+https://stackoverflow.com/questions/18719755/multi-devices-support-in-android
+
+
+
+For multiple android devices start your appium server with parameters:
+
+    node appium.js -p 4476 -U <device1_serial>
+    node appium.js -p 4475 -U <device2_serial>
+
+You can select any port, but make sure they are different in your code, where you are creating driver, provide server url:
+
+server1_url = "http://127.0.0.1:4475/wd/hub"
+server2_url = "http://127.0.0.1:4476/wd/hub"
+
+Done.
