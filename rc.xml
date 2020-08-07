@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>telerrico</name>
+    <name>Nightmare-02</name>
     <titleLayout>DLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -381,6 +381,24 @@
           <name>Xfce terminal</name>
         </startupnotify>
         <command>xfce4-terminal</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioRaiseVolume">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Volume UP</name>
+        </startupnotify>
+        <command>pactl set-sink-volume @DEFAULT_SINK@ +10%</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioLowerVolume">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Volume DOWN</name>
+        </startupnotify>
+        <command>pactl set-sink-volume @DEFAULT_SINK@ -10%</command>
       </action>
     </keybind>
     <!-- Launch scrot when Print is pressed -->
