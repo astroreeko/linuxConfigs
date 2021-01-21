@@ -5,3 +5,24 @@ dpkg -i sougo*.deb
 sudo apt --fix-broken install
 
 sudo apt-get install libqt4-declarative
+
+----
+
+for MX linux  
+
+need to install:
+
+
+sudo apt install -y zenity
+
+sudo apt install fcitx-config-gtk
+
+
+download sogou input linux version for sougo webiste
+
+
+start  fcitx-config-gtk3 
+
+add sogou input into list
+
+
