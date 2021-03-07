@@ -19,3 +19,7 @@ tint2 &
 
 # SCIM support (for typing non-english characters)
 # scim -d &
+
+
+# open vm toools wrapper to enable copy and paste and hd sharing
+/usr/bin/vmware-user-suid-wrapper & 
