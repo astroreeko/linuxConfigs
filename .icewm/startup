@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#sleep 1 &&
+nitrogen --restore &
+#1sleep 1 &&
+compton &
+sleep 1 &
+
+#AT-SPI D-Bus Bus
+/usr/libexec/at-spi-bus-launcher --launch-immediately &
+
+#PolicyKit Authentication Agent
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+
+#Screen Locker
+light-locker --lock-after-screesaver=1 &
+
+#Xscreensaver
+xscreensaver -no-splash &
+
+#xscreensaver &
+#xfce4-screensaver &
